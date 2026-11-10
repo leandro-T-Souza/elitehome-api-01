@@ -1,0 +1,27 @@
+{
+  "name": "elitehome-api-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch ./src/http/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.23.15",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "env-var": "^7.5.0",
+    "fastify": "^5.12.7",
+    "knex": "^3.3.0",
+    "pg": "^8.23.1",
+    "zod": "^4.6.7"
+  }
+}
